@@ -22,4 +22,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "my_org_site.wsgi:application"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "portal.wsgi:application"]
